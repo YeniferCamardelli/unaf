@@ -3,3 +3,4 @@ azucar
 yerba
 pan 
 sal
+arroz
