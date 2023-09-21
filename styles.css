@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+    background-color: #f5f5f5; /* Color de fondo */
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0e6e4; /* Color del contenedor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  h1 {
+    color: #0c0c0c; /* Color del texto */
+  }
+  
+  p {
+    color: #0a0a0a; /* Color del texto */
+  }
+
+  
+  
