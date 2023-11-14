@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enunciado</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Sistema y Funcionamiento</h1>
+    <h2>Sistema Propuesto</h2>
+    <P>En este trabajo de investigación se propone un sistema de control y actualización de stock; Este
+        sistema busca a través del registro de ventas actualiza el stock al disminuir las cantidades de los
+        productos vendidos, mientras que el registro de ingreso aumenta las cantidades al recibir nuevos
+        productos. Los procesos de facturación y pedidos también tienen un impacto en el stock,
+        asegurando que esté actualizado y refleje las cantidades disponibles en todo momento.
+                
+    </P>
+    <h2>Funcionamiento del sistema</h2>
+    <P>El principal funcionamiento del sistema es gestionar el control y la actualización de stock,
+        permitiendo el registro de productos, ventas y ingresos. A través de los procesos de facturación y
+        pedidos, el sistema facilita la actualización del estado de los productos y sus modificaciones en el
+        precio. El almacén de productos es el componente clave que refleja los cambios gestionados por los
+        registros de pedidos y ventas, manteniendo actualizadas las cantidades y precios de los productos.
+        A continuación, describiré cómo se lleva a cabo este control y cómo se realizan los registros de
+        productos, ventas e ingresos: 
+    </P>
+    <h4>Registro de productos: </h4>
+    <P> El sistema permite registrar los productos existentes en el almacén. Se ingresan detalles como el
+        nombre del producto, su categoría, precio y cantidad disponible. Estos datos se almacenan en la
+        base de datos y representan el inventario inicial.
+    </P>
+    <h4>Registro de ventas: </h4>
+    <P> Cuando un cliente desea comprar productos, el sistema registra la venta. Se seleccionan los
+        productos deseados y se ingresan las cantidades correspondientes. Luego, se actualiza el almacén
+        de stock, disminuyendo las cantidades de los productos vendidos. Esta actualización garantiza que
+        el stock refleje la cantidad disponible después de cada venta.
+    </P>
+    <h4>Registro de ingreso: </h4>
+    <P> Cuando el propietario del local recibe nuevos productos, el sistema registra el ingreso de estos. Se
+        ingresan los detalles de los productos, como su categoría, precio y cantidad. Luego, se actualiza el
+        almacén de stock, aumentando las cantidades de los productos ingresados. Esta actualización
+        mantiene el stock actualizado con las nuevas cantidades recibidas.        
+    </P>
+    <h4>Facturación: </h4>
+    <P>El proceso de facturación está vinculado al registro de venta. Al registrar una venta, el sistema
+        genera un impacto en el almacén de stock, ya que disminuye las cantidades disponibles de los
+        productos vendidos.               
+    </P>
+    <h4>Pedidos: </h4>
+    <P>El sistema utiliza la información del almacén de stock para generar pedidos a proveedores cuando
+        sea necesario. Al comparar las cantidades actuales en el almacén con un umbral mínimo, el sistema
+        determina qué productos deben ser pedidos para reponer el stock. Una vez ingresados los artículos
+        recibidos, se actualiza nuevamente el almacén de stock con las nuevas cantidades o los nuevos
+        artículos.               
+    </P>
+    
